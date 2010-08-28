@@ -14,7 +14,9 @@ Markdown module.
 
 ## CONFIGURATION ##
 
-Modify the constants in post.py:
+In the file post.py, modify:
+
+- the constants:
 
     INSERT_CSS=True
     INSERT_HEADER=True
@@ -22,7 +24,17 @@ Modify the constants in post.py:
     MKD_FILE = 'posts.mkd'
     HTML_FILE = 'posts.html'
 
-If you choose to use a CSS file, change its name:
+
+- the header:
+
+    <div id="container">
+    <p class="header">
+        AT THE SPEED OF LIFE:
+        MY NOTES AND IDEAS...
+    </p>
+    </div>
+
+and if you choose to use a CSS file, change its name:
 
     <link rel="stylesheet" type="text/css" href="style.css" />
 
