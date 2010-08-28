@@ -50,7 +50,7 @@ else:
 #########
 
 begin_quote = '<div class=quote>'
-end_quote = '</div>'
+end_quote = '</div>\n'
 
 
 ########
