@@ -57,3 +57,4 @@ and if you choose to use a CSS file, change its name:
 ## TODO ##
 
 - Find a way to easily edit/remove an entry.
+- Add dates for each post
