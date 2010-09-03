@@ -65,6 +65,7 @@ def write_file(fname, message, mode='a'):
     f.write("\n")
     f.close()
 
+
 def read_file(fname):
     """docstring for read_file"""
     
